@@ -1,0 +1,40 @@
+#navbar {
+    background-color: darkgray;
+    width:100%;
+    position: relative;
+    float:left;
+}
+#navbar li {
+    list-style-type: none;
+    float:left;
+    position: relative;
+    right:50%;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    margin-top: 0px;
+    color:black;
+    padding:15px;
+    display: block;
+}
+#navbar ul {
+    margin: 0;
+    padding:0;
+    float:left;
+    position: relative;
+    left:50%;
+}
+#navbar ul li:hover {
+    background-color: #303030;
+}
+#onsite {
+    background-color: white;
+}
+#title {
+    clear:both;
+    padding-top: 15px;
+}
+section {
+    padding: 15px;
+}
