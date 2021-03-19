@@ -1,2 +1,6 @@
-# ITMD361 HTMLProject 1
-This is my website for my ITMD 361 Project 1. The website contains 3 webpages and a images folder.
+# ITMD361 CSSProject 2
+Website created as a Project for my ITMD 361 class. 
+
+# CSS Phase
+This branch is for Project 2 which will involve using css for our website.
+
