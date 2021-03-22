@@ -1,14 +1,16 @@
 #navbar {
-    background-color: darkgray;
+    background-color: #989898;
     width:100%;
     position: relative;
     float:left;
+    border-radius: 0px 0px 30px 30px;
 }
 #navbar li {
     list-style-type: none;
     float:left;
     position: relative;
     right:50%;
+    border-radius: 10px 10px 0px 0px;
 }
 
 #navbar ul li a {
@@ -29,7 +31,7 @@
     background-color: #303030;
 }
 #onsite {
-    background-color: white;
+    background-color: lightgrey;
 }
 #title {
     clear:both;
@@ -41,11 +43,15 @@ section {
 body {
     background-color: lightgrey;
 }
+
+#emu {
+    width:100%
+}
 #emu section {
     background-color: white;
     border-color: white;
     border-radius: 20px;
-    margin: 20px;
+    margin: 30px;
     overflow: hidden;
 }
 #emu img {
@@ -66,4 +72,75 @@ body {
 footer {
     padding:15px;
     text-align: center;
+    clear:both;
+    background-color: white;
+    border-radius: 30px 30px 0 0;
+    margin-top: 10px;
 }
+
+#resume {
+    background-color: white;
+    border-radius: 30px 30px 0 0;
+    width: 1000px;
+    margin: auto;
+}
+
+#intro {
+
+    margin: 20px;
+    right:50%;
+    width:40%;
+    float:left;
+}
+
+#title1 {
+    text-align: center;
+    clear:both;
+    padding-top: 20px;
+}
+
+#laytwo {
+    clear:both;
+    background-color: #F8F8F8;
+    margin: 20px;
+    border-radius: 30px 30px 0 0;
+}
+
+#about {
+    background-color: white;
+    overflow: hidden;
+    border-radius: 200px 0px 0px 200px;
+    margin: 20px;
+    margin-right: 0px;
+}
+
+#about:hover {
+    background-color: #F8F8F8;
+}
+
+#interest:hover {
+    background-color: #F8F8F8;
+}
+
+#about h2 p {
+    position: relative;
+    width: 50%;
+}
+
+#chicago {
+    float:left;
+}
+
+#interest {
+    background-color: white;
+    overflow: hidden;
+    border-radius: 0px 200px 200px 0px;
+    margin: 20px;
+    margin-left: 0px;
+}
+
+#retro {
+    float:right;
+}
+
+
