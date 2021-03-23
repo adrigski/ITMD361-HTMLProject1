@@ -39,6 +39,7 @@
 }
 section {
     padding: 15px;
+    overflow: hidden;
 }
 body {
     background-color: lightgrey;
@@ -56,17 +57,28 @@ body {
 }
 #emu img {
     float:left;
-    overflow: hidden;
-    padding-right: 5%;
+    margin-right:50px;
 }
+
+#emu h4 p {
+    display:block;
+}
+
+#emucontent {
+    display:block;
+    margin: 2px 0 0 0;
+
+}
+
+
 #emu ul  {
-    float:left;
+    display:block;
+    margin: 2px 0 0 0;
 }
 #opening {
     padding: 5px 25px;
     clear:both;
     padding-left: 5%;
-
 }
 #closing {
     padding: 5px 25px;
@@ -82,13 +94,12 @@ footer {
 
 #resume {
     background-color: white;
-    border-radius: 30px 30px 0 0;
+    border-radius: 30px 30px 30px 30px;
     width: 70%;
     margin: auto;
 }
 
 #intro {
-
     margin: 20px;
     right:50%;
     width:40%;
@@ -105,91 +116,49 @@ footer {
     clear:both;
     background-color: #F8F8F8;
     margin: 20px;
-    border-radius: 30px 30px 0 0;
+    border-radius: 30px 30px 30px 30px;
+}
+
+
+
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.textgroup {
+    padding-top: 4em;
 }
 
 #about {
     background-color: white;
     overflow: hidden;
     border-radius: 200px 0px 0px 200px;
-    margin: 20px;
-    margin-right: 0px;
-    margin-top: 0;
-    margin-left:5%;
+    margin: 0 0 0 5%;
     float:right;
-
+    padding: 30px;
+    height: 20em;
 }
-
-#about:hover {
-    background-color: white;
-}
-
-#interest:hover {
-    background-color: white;
-}
-
-#about h2 p {
-    position: relative;
-    width: 50%;
-}
-
-#chicago {
+#about img {
     float:left;
+    padding-right: 4em;
 }
 
 #interest {
     background-color: white;
     overflow: hidden;
     border-radius: 0px 200px 200px 0px;
-    margin: 20px;
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-right:5%;
+    margin: 0 5% 5% 0;
     float:left;
-
+    height: 20em;
 }
-
-#interest h2 {
-    width:50%;
-    margin-top: 6em;
-
-}
-
-#about h2 {
-    width:50%;
-    margin-top: 6em;
-
-}
-
-#retro {
+#interest img {
     float:right;
+    padding-left: 4em;
 }
 
-.box1 {
-    background-color: white;
-    border-radius: 0px 200px 0px 0px;
-    width: 10%;
-    padding-top: 60px;
-    position: relative;
-    float:left;
-
-
-}
-
-.box2 {
-    background-color: white;
-    border-radius: 0px 200px 0px 0px;
-    width: 20%;
-    padding-top: 60px;
-    position: relative;
-    float:left;
-    clear:both;
-
-}
-
-
-
-.boxfirst1 {
+#visualbox1 {
     background-color: white;
     border-radius: 200px 0px 0px 0px;
     width: 10%;
@@ -197,8 +166,7 @@ footer {
     position: relative;
     float:right;
 }
-
-.boxfirst2 {
+#visualbox2 {
     background-color: white;
     border-radius: 200px 0px 0px 0px;
     width: 20%;
@@ -207,12 +175,36 @@ footer {
     float:right;
     clear:both;
 }
+#visualbox3 {
+    background-color: white;
+    border-radius: 0px 200px 0px 0px;
+    width: 10%;
+    padding-top: 60px;
+    position: relative;
+    float:left;
+}
+#visualbox4 {
+    background-color: white;
+    border-radius: 0px 200px 0px 0px;
+    width: 20%;
+    padding-top: 60px;
+    position: relative;
+    float:left;
+    clear:both;
+}
+
+
+
+
 
 #intropage {
     padding:5px;
     padding-left: 5%;
     clear:both;
-
 }
 
-
+#pic img {
+    display:block;
+    border-radius: 20px;
+    margin: 10px auto 10px auto;
+}
