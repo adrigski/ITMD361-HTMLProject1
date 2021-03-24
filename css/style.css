@@ -126,7 +126,6 @@ img {
     float:left;
     clear:both;
 }
-
 /* Resume (Fluid)*/
 #resume {
     background-color: white;
@@ -134,7 +133,7 @@ img {
     width: 80%;
     margin: auto;
 }
-#firstrow {
+.firstrow {
     margin: 2%;
     right: 50%;
     width: 40%;
@@ -144,7 +143,7 @@ img {
     clear:both;
     background-color: #F8F8F8;
     margin: 2%;
-    border-radius: 30px 30px 30px 30px;
+    border-radius: 1.875em 1.875em 1.875em 1.875em;
 }
 #resume img {
     display:block;
@@ -161,7 +160,6 @@ img {
 #resume li {
     padding: 0.4%;
 }
-
 /* Emulation (Fixed)*/
 #emu section {
     width: 960px;
@@ -183,8 +181,8 @@ img {
     text-align: center;
 }
 #video iframe {
-    width:640px;
-    height:360px;
+    width:40em;
+    height:22.5em;
 }
 #emu li {
     list-style-type: none;
