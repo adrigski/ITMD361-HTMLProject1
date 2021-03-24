@@ -1,194 +1,193 @@
 body {
-    background-color: #E8EAF6;
+  background-color: #E8EAF6;
 }
 #navbar {
-    background-color: #FF7F50;
-    overflow:hidden;
-    border-radius: 0 0 1.875em 1.875em;
+  background-color: #FF7F50;
+  overflow:hidden;
+  border-radius: 0 0 1.875em 1.875em;
 }
 #navbar-container {
-    width: 100%;
-    position: relative;
-    float:left;
+  width: 100%;
+  position: relative;
+  float:left;
 }
 #navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    float:left;
-    position: relative;
-    left: 50%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float:left;
+  position: relative;
+  left: 50%;
 }
 #navbar ul li {
-    float: left;
-    position: relative;
-    right: 50%;
-    border-radius: 0.625em 0.625em 0 0;
-    display: block;
+  float: left;
+  position: relative;
+  right: 50%;
+  border-radius: 0.625em 0.625em 0 0;
+  display: block;
 }
 #navbar ul li a {
-    text-decoration: none;
-    color:black;
-    padding: 0.9375em;
-    display: block;
+  text-decoration: none;
+  color:black;
+  padding: 0.9375em;
+  display: block;
 }
 #navbar ul li:hover {
-    background-color: #E8A87C;
+  background-color: #E8A87C;
 }
 #onsite {
-    background-color: #E8EAF6;
+  background-color: #E8EAF6;
 }
 footer {
-    padding: 1%;
-    text-align: center;
-    clear:both;
-    background-color: #FF7F50;
-    border-radius: 1.875em 1.875em 0 0;
-    margin-top: 2%;
-    color:white;
+  padding: 1%;
+  text-align: center;
+  clear:both;
+  background-color: #FF7F50;
+  border-radius: 1.875em 1.875em 0 0;
+  margin-top: 2%;
+  color:white;
 }
 section {
-    padding: 1%;
-    overflow: hidden;
+  padding: 1%;
+  overflow: hidden;
 }
 img {
-    max-width: 100%;
-    max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 #headingtext {
-    padding: 1% 5% 1% 5%;
-    clear:both;
-    font-family: 'Lato', sans-serif;
+  padding: 1% 5% 1% 5%;
+  clear:both;
+  font-family: 'Lato', sans-serif;
 }
-
 /* Homepage */
 #about {
-    background-color: white;
-    border-radius: 12.5em 0 0 12.5em;
-    margin: 0 0 0 5%;
-    float:right;
-    padding-left: 5em;
-    height: 20em;
+  background-color: white;
+  border-radius: 12.5em 0 0 12.5em;
+  margin: 0 0 0 5%;
+  float:right;
+  padding-left: 5em;
+  height: 20em;
 }
 #about img {
-    float:left;
-    padding-right: 4em;
+  float:left;
+  padding-right: 4em;
 }
 #interest {
-    background-color: white;
-    overflow: hidden;
-    border-radius: 0 12.5em 12.5em 0;
-    margin: 0 5% 5% 0;
-    float:left;
-    padding-right: 5em;
-    height: 20em;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 0 12.5em 12.5em 0;
+  margin: 0 5% 5% 0;
+  float:left;
+  padding-right: 5em;
+  height: 20em;
 }
 #interest img {
-    float:right;
-    padding-left: 4em;
+  float:right;
+  padding-left: 4em;
 }
 .textgroup {
-    text-align: center;
-    vertical-align: middle;
-    padding: 5% 1em 5% 1em;
+  text-align: center;
+  vertical-align: middle;
+  padding: 5% 1em 5% 1em;
 }
 #visualbox1 {
-    background-color: white;
-    border-radius: 12.5em 0 0 0;
-    width: 10%;
-    padding-top: 2.5em;
-    position: relative;
-    float:right;
+  background-color: white;
+  border-radius: 12.5em 0 0 0;
+  width: 10%;
+  padding-top: 2.5em;
+  position: relative;
+  float:right;
 }
 #visualbox2 {
-    background-color: white;
-    border-radius: 12.5em 0 0 0;
-    width: 20%;
-    padding-top: 2.5em;
-    position: relative;
-    float:right;
-    clear:both;
+  background-color: white;
+  border-radius: 12.5em 0 0 0;
+  width: 20%;
+  padding-top: 2.5em;
+  position: relative;
+  float:right;
+  clear:both;
 }
 #visualbox3 {
-    background-color: white;
-    border-radius: 0 12.5em 0 0;
-    width: 10%;
-    padding-top: 2.5em;
-    position: relative;
-    float:left;
+  background-color: white;
+  border-radius: 0 12.5em 0 0;
+  width: 10%;
+  padding-top: 2.5em;
+  position: relative;
+  float:left;
 }
 #visualbox4 {
-    background-color: white;
-    border-radius: 0 12.5em 0 0;
-    width: 20%;
-    padding-top: 2.5em;
-    position: relative;
-    float:left;
-    clear:both;
+  background-color: white;
+  border-radius: 0 12.5em 0 0;
+  width: 20%;
+  padding-top: 2.5em;
+  position: relative;
+  float:left;
+  clear:both;
 }
 /* Resume (Fluid)*/
 #resume {
-    background-color: white;
-    border-radius: 1.875em 1.875em 1.875em 1.875em;
-    width: 80%;
-    margin: auto;
+  background-color: white;
+  border-radius: 1.875em 1.875em 1.875em 1.875em;
+  width: 80%;
+  margin: auto;
 }
 .firstrow {
-    margin: 2%;
-    right: 50%;
-    width: 40%;
-    float:left;
+  margin: 2%;
+  right: 50%;
+  width: 40%;
+  float:left;
 }
 #secondrow {
-    clear:both;
-    background-color: #F8F8F8;
-    margin: 2%;
-    border-radius: 1.875em 1.875em 1.875em 1.875em;
+  clear:both;
+  background-color: #F8F8F8;
+  margin: 2%;
+  border-radius: 1.875em 1.875em 1.875em 1.875em;
 }
 #resume img {
-    display:block;
-    border-radius: 1.25em;
-    margin: 1% auto 1% auto;
+  display:block;
+  border-radius: 1.25em;
+  margin: 1% auto 1% auto;
 }
 #secondrow section {
-    padding: 1% 2% 1% 2%;
+  padding: 1% 2% 1% 2%;
 }
 .indentlist {
-    list-style-type: circle;
-    margin-left: 2%;
+  list-style-type: circle;
+  margin-left: 2%;
 }
 #resume li {
-    padding: 0.4%;
+  padding: 0.4%;
 }
 /* Emulation (Fixed)*/
 #emu section {
-    width: 960px;
-    background-color: white;
-    border-radius: 1.2500em;
-    margin: 1.2500em 4.375em 1.2500em 4.375em;
-    overflow: hidden;
-    margin-right: auto;
-    margin-left: auto;
+  width: 960px;
+  background-color: white;
+  border-radius: 1.2500em;
+  margin: 1.2500em 4.375em 1.2500em 4.375em;
+  overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
 }
 #emu img {
-    padding: 0.625em;
-    float:left;
-    margin: 0.625em 3.125em 1.25em 0.625em;
+  padding: 0.625em;
+  float:left;
+  margin: 0.625em 3.125em 1.25em 0.625em;
 }
 #video {
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
 }
 #video iframe {
-    width:40em;
-    height:22.5em;
+  width:40em;
+  height:22.5em;
 }
 #emu li {
-    list-style-type: none;
+  list-style-type: none;
 }
 #emu a{
-    color:dodgerblue;
-    text-decoration: none;
+  color:dodgerblue;
+  text-decoration: none;
 }
 
