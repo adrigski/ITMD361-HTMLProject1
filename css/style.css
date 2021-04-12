@@ -4,7 +4,6 @@ body {
 #navbar {
   background-color: #FF7F50;
   overflow:hidden;
-  border-radius: 0 0 1.875em 1.875em;
 }
 #navbar-container {
   width: 100%;
@@ -23,7 +22,7 @@ body {
   float: left;
   position: relative;
   right: 50%;
-  border-radius: 0.625em 0.625em 0 0;
+  border-radius: 0.5em 0.5em 0 0;
   display: block;
 }
 #navbar ul li a {
@@ -43,7 +42,7 @@ footer {
   text-align: center;
   clear:both;
   background-color: #FF7F50;
-  border-radius: 1.875em 1.875em 0 0;
+  border-radius: 5em 5em 0 0;
   margin-top: 2%;
   color:white;
 }
@@ -60,6 +59,9 @@ img {
   clear:both;
   font-family: 'Lato', sans-serif;
 }
+p {
+  font-size: 1.1em;
+}
 /* Homepage */
 #about {
   background-color: white;
@@ -67,7 +69,7 @@ img {
   margin: 0 0 0 5%;
   float:right;
   padding-left: 5em;
-  height: 20em;
+  height: 18em;
 }
 #about img {
   float:left;
@@ -80,7 +82,7 @@ img {
   margin: 0 5% 5% 0;
   float:left;
   padding-right: 5em;
-  height: 20em;
+  height: 18em;
 }
 #interest img {
   float:right;
@@ -89,7 +91,8 @@ img {
 .textgroup {
   text-align: center;
   vertical-align: middle;
-  padding: 5% 1em 5% 1em;
+  padding: 2.3% 1em 5% 1em;
+  font-size: 1.2em;
 }
 #visualbox1 {
   background-color: white;
@@ -163,16 +166,24 @@ img {
 #emu section {
   width: 960px;
   background-color: white;
-  border-radius: 1.2500em;
+  border-radius: 0.5em;
   margin: 1.2500em 4.375em 1.2500em 4.375em;
   overflow: hidden;
   margin-right: auto;
   margin-left: auto;
 }
 #emu img {
-  padding: 0.625em;
+  padding: 1em;
   float:left;
-  margin: 0.625em 3.125em 1.25em 0.625em;
+}
+.imgbox {
+  float:left;
+  width: 15em;
+}
+.textbox {
+  float:left;
+  width: 44em;
+  padding:0.5em;
 }
 #video {
   margin-right: auto;
@@ -190,4 +201,3 @@ img {
   color:dodgerblue;
   text-decoration: none;
 }
-
