@@ -42,7 +42,7 @@ footer {
   text-align: center;
   clear:both;
   background-color: #FF7F50;
-  border-radius: 5em 5em 0 0;
+  border-radius: 2em 2em 0 0;
   margin-top: 2%;
   color:white;
 }
@@ -65,7 +65,7 @@ p {
 /* Homepage */
 #about {
   background-color: white;
-  border-radius: 12.5em 0 0 12.5em;
+  border-radius: 10em 0 0 10em;
   margin: 0 0 0 5%;
   float:right;
   padding-left: 5em;
@@ -78,7 +78,7 @@ p {
 #interest {
   background-color: white;
   overflow: hidden;
-  border-radius: 0 12.5em 12.5em 0;
+  border-radius: 0 10em 10em 0;
   margin: 0 5% 5% 0;
   float:left;
   padding-right: 5em;
@@ -131,7 +131,7 @@ p {
 /* Resume (Fluid)*/
 #resume {
   background-color: white;
-  border-radius: 1.875em 1.875em 1.875em 1.875em;
+  border-radius: 1.5em 1.5em 1.5em 1.5em;
   width: 80%;
   margin: auto;
 }
@@ -145,11 +145,14 @@ p {
   clear:both;
   background-color: #F8F8F8;
   margin: 2%;
-  border-radius: 1.875em 1.875em 1.875em 1.875em;
+  border-radius: 1em 1em 1em 1em;
+}
+#secondrow li {
+  font-size: 1.1em;
 }
 #resume img {
   display:block;
-  border-radius: 1.25em;
+  border-radius: 1em;
   margin: 1% auto 1% auto;
 }
 #secondrow section {
