@@ -179,32 +179,6 @@ p {
   text-align: center;
   font-size: 4em;
 }
-@media screen and (min-width: 800px) {
-  .firstrow {
-    text-align: initial;
-    margin: 2%;
-    width: 40%;
-    float:left;
-    font-size: 1.3em;
-  }
-  #secondrow {
-    margin: 2%;
-    font-size:1.4em;
-  }
-  .indentlist {
-    margin-left: 4%;
-  }
-  #headingtext h1 {
-    text-align: center;
-    font-size: 3em;
-  }
-  #resume img {
-    display:block;
-    border-radius: 2em;
-    margin: 0 auto 0 auto;
-    padding-bottom: 2%;
-  }
-}
 @media screen and (min-width: 1024px) {
   #resume {
     width: 80%;
