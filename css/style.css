@@ -74,6 +74,7 @@ p {
 #about img {
   float:left;
   padding-right: 4em;
+  padding: auto;
 }
 #interest {
   background-color: white;
@@ -128,42 +129,118 @@ p {
   float:left;
   clear:both;
 }
-/* Resume (Fluid)*/
+/* Resume (Fluid) (Moblie Friendly) */
 #resume {
   background-color: white;
   border-radius: 1.5em 1.5em 1.5em 1.5em;
-  width: 80%;
+  width: 95%;
   margin: auto;
 }
 .firstrow {
   margin: 2%;
   right: 50%;
-  width: 40%;
-  float:left;
+  width: auto;
+  float:none;
+  font-size: 3em;
+  text-align: center;
 }
 #secondrow {
   clear:both;
   background-color: #F8F8F8;
   margin: 2%;
   border-radius: 1em 1em 1em 1em;
+  font-size:2.5em;
+}
+#secondrow h2 {
+  text-align: center;
 }
 #secondrow li {
+  padding: 1%;
   font-size: 1.1em;
 }
 #resume img {
-  display:block;
-  border-radius: 1em;
-  margin: 1% auto 1% auto;
+  border-radius: 2em;
+  margin: 1% 1% 1% 1%;
+  max-width: 95%;
+  height: auto;
+  padding: 1%;
 }
 #secondrow section {
   padding: 1% 2% 1% 2%;
 }
 .indentlist {
   list-style-type: circle;
-  margin-left: 2%;
+  margin-left: 10%;
 }
 #resume li {
-  padding: 0.4%;
+  padding: 1%;
+}
+#headingtext h1 {
+  text-align: center;
+  font-size: 4em;
+}
+@media screen and (min-width: 800px) {
+  .firstrow {
+    text-align: initial;
+    margin: 2%;
+    width: 40%;
+    float:left;
+    font-size: 1.3em;
+  }
+  #secondrow {
+    margin: 2%;
+    font-size:1.4em;
+  }
+  .indentlist {
+    margin-left: 4%;
+  }
+  #headingtext h1 {
+    text-align: center;
+    font-size: 3em;
+  }
+  #resume img {
+    display:block;
+    border-radius: 2em;
+    margin: 0 auto 0 auto;
+    padding-bottom: 2%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #resume {
+    width: 80%;
+    margin: auto;
+  }
+  .firstrow {
+    text-align: initial;
+    margin: 2%;
+    width: 40%;
+    float:left;
+    font-size: 1em;
+  }
+  #secondrow {
+    margin: 2%;
+    font-size:1em;
+  }
+  #secondrow h2 {
+    text-align: initial;
+  }
+  #resume img {
+    display:block;
+    border-radius: 2em;
+    margin: 0 auto 0 auto;
+    padding-bottom: 2%;
+  }
+  .indentlist {
+    margin-left: 2%;
+  }
+  #resume li {
+    padding: 0.4%;
+    font-size: 1.1em;
+  }
+  #headingtext h1 {
+    text-align: initial;
+    font-size: 2em;
+  }
 }
 /* Emulation (Fixed)*/
 #emu section {
