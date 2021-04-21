@@ -1,10 +1,3 @@
-function init(){
-  new Splide( '#image-slider', {
-    'cover'      : true,
-    'heightRatio': 0.5,
-} ).mount();
-}
-
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 4,
@@ -86,4 +79,3 @@ function initMap() {
   });
 }
 
-window.addEventListener('load', init);
